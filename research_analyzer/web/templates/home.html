@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Research Daily Update</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 300px;
+            margin: 20px 0;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Medical Research Daily Update</h1>
+    <div class="container">
+        <p class="date">Latest Report: {{ report_date }}</p>
+        <img src="{{ qr_code }}" alt="QR Code for Report Download">
+        <p>Scan this QR code to download the latest medical research report</p>
+        <a href="/download" class="button">Download Latest Report</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+numpy
+pandas
+requests
+python-dotenv
+tqdm
+beautifulsoup4
+lxml
+aiohttp
+fake-useragent
+fpdf2
+matplotlib
+torch
+transformers
+sentencepiece
+pytest
+pytest-asyncio

@@ -1,0 +1,17 @@
+{
+    "paper": {
+        "title": "",
+        "abstract": "\n                Although suicide bereavement is highly distressing and is associated with an increased risk of suicidal behaviors \n                and mental and physical health impairments, those bereaved by suicide encounter difficulties accessing support. \n                Digital resources offer new forms of support for bereaved people. However, digital resources dedicated to those \n                bereaved by suicide are still limited. This study aimed to codevelop an online resource for people bereaved by suicide.\n                ",
+        "authors": [],
+        "year": "",
+        "url": ""
+    },
+    "analysis": {
+        "huggingface_flan_t5_xxl": "Error: 500 Server Error: Internal Server Error for url: https://api-inference.huggingface.co/models/google/flan-t5-xxl | Response: {\"error\":\"CUDA out of memory. Tried to allocate 64.00 MiB (GPU 0; 22.19 GiB total capacity; 21.87 GiB already allocated; 33.50 MiB free; 21.87 GiB reserved in total by PyTorch) If reserved memory is >",
+        "huggingface_pegasus_xsum": "The purpose of this study was to codevelop an online resource for people bereaved by suicide to help them access support and information about suicide bereavement and suicide prevention, as well as to examine the impact of this resource on their mental health and well-being.",
+        "huggingface_led": "Abstract:    1.  2.   3.4.  4.5.1.  5.  Please analyze this research paper focusing on:  5 .   6.  7. Main findings of this study focusing on this study.  .  5  )   ) Title:  =   - - -   \" - - \" - \" \" -\"  \" \" \"  \"  \" - \"\" -\" \" \"\" \"\"   Abstract:  1   Suicide bereavement is highly distressing and is associated with an increased risk of suicidal behaviors  \u00c2   *   >   }   and mental and physical health impairments",
+        "huggingface_mistral": "Error: 503 Server Error: Service Unavailable for url: https://api-inference.huggingface.co/models/mistralai/Mistral-7B-v0.1 | Response: {\"error\":\"Service Unavailable\"}",
+        "huggingface_bloomz": "Error: 403 Client Error: Forbidden for url: https://api-inference.huggingface.co/models/bigscience/bloomz-7b1 | Response: {\"error\":\"The model bigscience/bloomz-7b1 is too large to be loaded automatically (14GB > 10GB). Please use Spaces (https://huggingface.co/spaces) or Inference Endpoints (https://huggingface.co/infere"
+    },
+    "timestamp": "20250121_095802"
+}
